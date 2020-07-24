@@ -1,10 +1,15 @@
 import React from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
+import BaseRouter from './routes';
+import './App.css';
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Router>
+        <BaseRouter />
+      </Router>
+    </>
   );
 }
 
